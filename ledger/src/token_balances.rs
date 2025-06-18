@@ -1,12 +1,12 @@
 use {
-    solana_account_decoder::parse_token::{
+    suprana_account_decoder::parse_token::{
         is_known_spl_token_id, token_amount_to_ui_amount, UiTokenAmount,
     },
-    solana_measure::measure::Measure,
-    solana_metrics::datapoint_debug,
-    solana_runtime::{bank::Bank, transaction_batch::TransactionBatch},
-    solana_sdk::{account::ReadableAccount, pubkey::Pubkey},
-    solana_transaction_status::{
+    suprana_measure::measure::Measure,
+    suprana_metrics::datapoint_debug,
+    suprana_runtime::{bank::Bank, transaction_batch::TransactionBatch},
+    suprana_sdk::{account::ReadableAccount, pubkey::Pubkey},
+    suprana_transaction_status::{
         token_balances::TransactionTokenBalances, TransactionTokenBalance,
     },
     spl_token_2022::{
@@ -120,14 +120,14 @@ fn collect_token_balance_from_account(
 mod test {
     use {
         super::*,
-        solana_sdk::{account::Account, genesis_config::create_genesis_config},
+        suprana_sdk::{account::Account, genesis_config::create_genesis_config},
         spl_pod::optional_keys::OptionalNonZeroPubkey,
         spl_token_2022::{
             extension::{
                 immutable_owner::ImmutableOwner, memo_transfer::MemoTransfer,
                 mint_close_authority::MintCloseAuthority, ExtensionType, StateWithExtensionsMut,
             },
-            solana_program::{program_option::COption, program_pack::Pack},
+            suprana_program::{program_option::COption, program_pack::Pack},
         },
         std::collections::BTreeMap,
     };

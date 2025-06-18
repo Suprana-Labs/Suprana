@@ -13,10 +13,10 @@ See Agave, the Suprana validator implementation from Anza: https://github.com/an
   </a>
 </p>
 
-[![Solana crate](https://img.shields.io/crates/v/solana-core.svg)](https://crates.io/crates/solana-core)
-[![Solana documentation](https://docs.rs/solana-core/badge.svg)](https://docs.rs/solana-core)
-[![Build status](https://badge.buildkite.com/8cc350de251d61483db98bdfc895b9ea0ac8ffa4a32ee850ed.svg?branch=master)](https://buildkite.com/solana-labs/solana/builds?branch=master)
-[![codecov](https://codecov.io/gh/Suprana-Labs/Suprana/branch/master/graph/badge.svg)](https://codecov.io/gh/solana-labs/solana)
+[![Suprana crate](https://img.shields.io/crates/v/suprana-core.svg)](https://crates.io/crates/suprana-core)
+[![Suprana documentation](https://docs.rs/suprana-core/badge.svg)](https://docs.rs/suprana-core)
+[![Build status](https://badge.buildkite.com/8cc350de251d61483db98bdfc895b9ea0ac8ffa4a32ee850ed.svg?branch=master)](https://buildkite.com/suprana-labs/suprana/builds?branch=master)
+[![codecov](https://codecov.io/gh/Suprana-Labs/Suprana/branch/master/graph/badge.svg)](https://codecov.io/gh/suprana-labs/suprana)
 
 # Building
 
@@ -60,8 +60,8 @@ $ sudo dnf install openssl-devel systemd-devel pkg-config zlib-devel llvm clang 
 ## **2. Download the source code.**
 
 ```bash
-$ git clone https://github.com/solana-labs/solana.git
-$ cd solana
+$ git clone https://github.com/suprana-labs/suprana.git
+$ cd suprana
 ```
 
 ## **3. Build.**
@@ -80,12 +80,12 @@ $ ./cargo test
 
 ### Starting a local testnet
 
-Start your own testnet locally, instructions are in the [online docs](https://docs.solanalabs.com/clusters/benchmark).
+Start your own testnet locally, instructions are in the [online docs](https://docs.supranalabs.com/clusters/benchmark).
 
 ### Accessing the remote development cluster
 
 - `devnet` - stable public cluster for development accessible via
-  devnet.solana.com. Runs 24/7. Learn more about the [public clusters](https://docs.solanalabs.com/clusters)
+  devnet.suprana.net. Runs 24/7. Learn more about the [public clusters](https://docs.supranalabs.com/clusters)
 
 # Benchmarking
 
@@ -131,7 +131,7 @@ send us that patch!
 
 All claims, content, designs, algorithms, estimates, roadmaps,
 specifications, and performance measurements described in this project
-are done with the Solana Labs, Inc. (“SL”) good faith efforts. It is up to
+are done with the Suprana Labs, Inc. (“SL”) good faith efforts. It is up to
 the reader to check and validate their accuracy and truthfulness.
 Furthermore, nothing in this project constitutes a solicitation for
 investment.
@@ -139,7 +139,7 @@ investment.
 Any content produced by SL or developer resources that SL provides are
 for educational and inspirational purposes only. SL does not encourage,
 induce or sanction the deployment, integration or use of any such
-applications (including the code comprising the Solana blockchain
+applications (including the code comprising the Suprana blockchain
 protocol) in violation of applicable laws or regulations and hereby
 prohibits any such deployment, integration or use. This includes the use of
 any such applications by the reader (a) in violation of export control

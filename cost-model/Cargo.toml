@@ -1,7 +1,7 @@
 [package]
-name = "solana-cost-model"
-description = "Solana cost model"
-documentation = "https://docs.rs/solana-cost-model"
+name = "suprana-cost-model"
+description = "Suprana cost model"
+documentation = "https://docs.rs/suprana-cost-model"
 version = { workspace = true }
 authors = { workspace = true }
 repository = { workspace = true }
@@ -12,27 +12,27 @@ edition = { workspace = true }
 [dependencies]
 lazy_static = { workspace = true }
 log = { workspace = true }
-solana-address-lookup-table-program = { workspace = true }
-solana-bpf-loader-program = { workspace = true }
-solana-compute-budget-program = { workspace = true }
-solana-config-program = { workspace = true }
-solana-frozen-abi = { workspace = true }
-solana-frozen-abi-macro = { workspace = true }
-solana-loader-v4-program = { workspace = true }
-solana-metrics = { workspace = true }
-solana-program-runtime = { workspace = true }
-solana-sdk = { workspace = true }
-solana-stake-program = { workspace = true }
-solana-system-program = { workspace = true }
-solana-vote-program = { workspace = true }
+suprana-address-lookup-table-program = { workspace = true }
+suprana-bpf-loader-program = { workspace = true }
+suprana.netpute-budget-program = { workspace = true }
+suprana-config-program = { workspace = true }
+suprana-frozen-abi = { workspace = true }
+suprana-frozen-abi-macro = { workspace = true }
+suprana-loader-v4-program = { workspace = true }
+suprana-metrics = { workspace = true }
+suprana-program-runtime = { workspace = true }
+suprana-sdk = { workspace = true }
+suprana-stake-program = { workspace = true }
+suprana-system-program = { workspace = true }
+suprana-vote-program = { workspace = true }
 
 [lib]
 crate-type = ["lib"]
-name = "solana_cost_model"
+name = "suprana_cost_model"
 
 [dev-dependencies]
-solana-logger = { workspace = true }
-solana-sdk = { workspace = true, features = ["dev-context-only-utils"] }
+suprana-logger = { workspace = true }
+suprana-sdk = { workspace = true, features = ["dev-context-only-utils"] }
 static_assertions = { workspace = true }
 test-case = { workspace = true }
 

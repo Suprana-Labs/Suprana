@@ -4,8 +4,8 @@ use {
         perf::{set_perf_stats, PerfMetric, PerfStatsLevel},
         PerfContext,
     },
-    solana_metrics::datapoint_info,
-    solana_sdk::timing::timestamp,
+    suprana_metrics::datapoint_info,
+    suprana_sdk::timing::timestamp,
     std::{
         cell::RefCell,
         fmt::Debug,

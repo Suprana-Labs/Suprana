@@ -1,16 +1,16 @@
 #![allow(clippy::arithmetic_side_effects)]
 #![feature(test)]
-extern crate solana_ledger;
+extern crate suprana_ledger;
 extern crate test;
 
 use {
     rand::Rng,
-    solana_entry::entry::{create_ticks, Entry},
-    solana_ledger::{
+    suprana_entry::entry::{create_ticks, Entry},
+    suprana_ledger::{
         blockstore::{entries_to_test_shreds, Blockstore},
         get_tmp_ledger_path_auto_delete,
     },
-    solana_sdk::{clock::Slot, hash::Hash},
+    suprana_sdk::{clock::Slot, hash::Hash},
     std::path::Path,
     test::Bencher,
 };

@@ -1,9 +1,9 @@
 use {
-    solana_sdk::{
+    suprana_sdk::{
         clock::{Slot, UnixTimestamp},
         hash::Hash,
     },
-    solana_vote_program::vote_state::{Vote, VoteStateUpdate},
+    suprana_vote_program::vote_state::{Vote, VoteStateUpdate},
 };
 
 #[derive(Debug, PartialEq, Eq, Clone)]
